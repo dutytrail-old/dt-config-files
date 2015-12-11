@@ -1,0 +1,6 @@
+db:
+  url: jdbc:mysql://localhost:3306/
+  schema: tts_task_wc
+  driver: com.mysql.jdbc.Driver
+  user: root
+  password: HSSfYA5LZcIzlKbkxxDVgA
