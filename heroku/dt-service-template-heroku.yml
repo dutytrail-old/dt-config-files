@@ -1,3 +1,6 @@
+ping:
+  alive: Config properties loaded from HEROKU profile
+
 db:
   url: jdbc:mysql://localhost:3306/
   schema: tts_task_wc
