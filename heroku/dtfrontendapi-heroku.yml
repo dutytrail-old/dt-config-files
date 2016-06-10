@@ -1,2 +1,6 @@
 ping:
   alive: Config properties loaded from HEROKU profile
+
+feign:
+  name: dtserviceduty
+  url: dt-service-duty.herokuapp.com
