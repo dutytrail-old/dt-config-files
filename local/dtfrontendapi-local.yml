@@ -1,6 +1,10 @@
 ping:
   alive: Config properties loaded from HEROKU profile
 
-feign:
+dtserviceduty:
   name: dtserviceduty
-  url: localhost
+  url: localhost:7101
+
+dtservicetrail:
+  name: dtservicetrail
+  url: localhost:7201
