@@ -1,2 +1,2 @@
 ping:
-  alive: Config properties loaded from HEROKU profile
+  alive: Config properties loaded from LOCAL profile
