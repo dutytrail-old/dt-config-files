@@ -1,2 +1,23 @@
 ping:
   alive: Config properties loaded from HEROKU profile
+
+# DB CONNECTION mysql://b28e7f9aedc6e7:d3dfb07a@eu-cdbr-west-01.cleardb.com/heroku_d4bed01e1fa4704?reconnect=true
+db:
+  url: jdbc:mysql://eu-cdbr-west-01.cleardb.com:3306
+  schema: heroku_d4bed01e1fa4704
+  driver: com.mysql.jdbc.Driver
+  user: b28e7f9aedc6e7
+  password: d3dfb07a
+
+# SQL
+sql:
+  select:
+    listDuty: select d.id, d.name from dt_duty d
+    duty: select d.id, d.name from dt_duty d where d.id = ?
+    lastInsertId: select last_insert_id() as last_insert_id
+  insert:
+    duty: insert into dt_duty (name) values (?)
+  delete:
+    duty: delete from dt_duty where id = ?
+#  update:
+#    duty: update tts_track tt set tt.user_id = ?, tt.task_id= ?, tt.status = ? where tt.task_id = ?
