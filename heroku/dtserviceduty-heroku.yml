@@ -19,5 +19,3 @@ sql:
     duty: insert into dt_duty (name) values (?)
   delete:
     duty: delete from dt_duty where id = ?
-#  update:
-#    duty: update tts_track tt set tt.user_id = ?, tt.task_id= ?, tt.status = ? where tt.task_id = ?
