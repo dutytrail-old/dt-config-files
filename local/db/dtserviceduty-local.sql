@@ -1,4 +1,3 @@
---create database dt_service_duty;
 --GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'password' WITH GRANT OPTION;
 --FLUSH PRIVILEGES;
 drop table dt_duty cascade;
