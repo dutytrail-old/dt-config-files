@@ -17,5 +17,9 @@ sql:
     lastInsertId: select last_insert_id() as last_insert_id
   insert:
     duty: insert into dt_duty (name) values (?)
+    userSubscribeDuty: insert into dt_user_subscribe_duty (user_id, duty_id) values (?, ?)
   delete:
     duty: delete from dt_duty where id = ?
+
+
+    sql.insert.userSubscribeDuty
