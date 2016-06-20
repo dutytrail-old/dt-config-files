@@ -1,10 +1,10 @@
 ping:
-  alive: Config properties loaded from LOCAL profile
+  alive: Config properties loaded from HEROKU profile
 
 # DB CONNECTION
 db:
   url: jdbc:postgresql://ec2-54-228-226-93.eu-west-1.compute.amazonaws.com/
-  schema: postgres
+  schema: dckcj9i1b7k8gb
   driver: org.postgresql.Driver
   user: njuddcqcbpsoeh
   password: OhICq3DZZal1mQ0ZtWyJtsHwri
