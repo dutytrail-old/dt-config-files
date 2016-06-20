@@ -3,11 +3,11 @@ ping:
 
 # DB CONNECTION
 db:
-  url: jdbc:postgresql://localhost:5432/
+  url: jdbc:postgresql://ec2-54-228-226-93.eu-west-1.compute.amazonaws.com/
   schema: postgres
   driver: org.postgresql.Driver
-  user: joan
-  password: 1234
+  user: njuddcqcbpsoeh
+  password: OhICq3DZZal1mQ0ZtWyJtsHwri
 
 # SQL
 sql:
