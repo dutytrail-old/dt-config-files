@@ -4,10 +4,10 @@ ping:
 # DB CONNECTION mysql://b28e7f9aedc6e7:d3dfb07a@eu-cdbr-west-01.cleardb.com/heroku_d4bed01e1fa4704?reconnect=true
 db:
   url: jdbc:mysql://eu-cdbr-west-01.cleardb.com:3306/
-  schema: heroku_d4bed01e1fa4704
+  schema: heroku_f409b8bdcbe5ded
   driver: com.mysql.jdbc.Driver
-  user: b28e7f9aedc6e7
-  password: d3dfb07a
+  user: ba75454fafcd20
+  password: 3a0cd0f6
 
 # SQL
 sql:
