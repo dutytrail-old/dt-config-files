@@ -12,9 +12,11 @@ db:
 # SQL
 sql:
   select:
-    listDuty: select d.id, d.name from dt_duty d
+    listDuty: select d.id, d.name from dt_duty d, dt_user_subscribe_duty usd where usd.duty_id = d.id and usd.user_id = ?
     duty: select d.id, d.name from dt_duty d where d.id = ?
     lastInsertId: select last_insert_id() as last_insert_id
+    subscriptions: select user_id from dt_user_subscribe_duty usd where usd.duty_id = ?
+    user: select u.id, u.first_name, u.last_name, u.email, u.passphrase, u.gender from dt_user u where u.id = ?
   insert:
     duty: insert into dt_duty (name) values (?)
     userSubscribeDuty: insert into dt_user_subscribe_duty (user_id, duty_id) values (?, ?)
