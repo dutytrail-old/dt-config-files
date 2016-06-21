@@ -18,9 +18,14 @@ CREATE TABLE `dt_duty` (
 
 CREATE TABLE `dt_user` (
   `id` mediumint(9) NOT NULL AUTO_INCREMENT,
-  `name` varchar(100) NOT NULL DEFAULT '',
+  `first_name` varchar(100) NOT NULL DEFAULT '',
+  `last_name` varchar(100) NOT NULL DEFAULT '',
+  `email` varchar(100) NOT NULL DEFAULT '',
+  `passphrase` varchar(100) NOT NULL DEFAULT '',
+  `gender` varchar(100) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
-insert into dt_user values (1, 'Joan');
+insert into dt_user values (1, 'Joan', 'Tolos', 'joan.tolos@gmail.com', '123', 'male');
+insert into dt_user values (2, 'Nuria', 'Balague', 'unair.b@gmail.com', '123', 'female');
 commit;
