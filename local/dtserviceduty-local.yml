@@ -23,3 +23,4 @@ sql:
     userSubscribeDuty: insert into dt_user_subscribe_duty (user_id, duty_id) values (?, ?)
   delete:
     duty: delete from dt_duty where id = ?
+    userSubscribeDuty: delete from dt_user_subscribe_duty usd where usd.user_id = ? and usd.duty_id = ?
