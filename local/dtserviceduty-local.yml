@@ -25,3 +25,4 @@ sql:
   delete:
     duty: delete from dt_duty where id = ?
     userSubscribeDuty: delete from dt_user_subscribe_duty where user_id = ? and duty_id = ?
+    subscribeDuty: delete from dt_user_subscribe_duty where duty_id = ?
