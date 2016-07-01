@@ -1,13 +1,13 @@
 ping:
   alive: Config properties loaded from HEROKU profile
 
-# DB CONNECTION mysql://b28e7f9aedc6e7:d3dfb07a@eu-cdbr-west-01.cleardb.com/heroku_d4bed01e1fa4704?reconnect=true
+# DB CONNECTION
 db:
-  url: jdbc:mysql://eu-cdbr-west-01.cleardb.com:3306/
-  schema: heroku_f409b8bdcbe5ded
-  driver: com.mysql.jdbc.Driver
-  user: ba75454fafcd20
-  password: 3a0cd0f6
+  url: '{cypher}fe659f8ddafccb3ef260dfbce051f13849ebbbfd7653a84b27b609a710e11636a3a89cc2906564aba233f021cf1588a326d7b8a50140c4c6d33964f5cc870ca2'
+  schema: '{cypher}6abc1e79fd1211cbc04e9577a049082c2374ede547d38bac1fe9519926d2bc96ba4c6c78e352a118e8c7a7c2d6593e68'
+  driver: '{cypher}82afd93c867894ccdc5a709268f470efc6b4af17070027f2de0e147fc10a0504f1a6a937674bd162d4db90e639259f64'
+  user: '{cypher}02e3cb48e7f11d42f36d01235e92c53c644ebc0a8ca6e8bd056ab06cf1cddb93'
+  password: '{cypher}c35a39c8a8d7913519793d3203f633e5f9259d76906014e73fdf732107819c1c'
 
 # SQL
 sql:

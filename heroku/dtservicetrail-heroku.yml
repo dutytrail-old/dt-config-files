@@ -3,11 +3,11 @@ ping:
 
 # DB CONNECTION
 db:
-  url: jdbc:postgresql://ec2-54-228-226-93.eu-west-1.compute.amazonaws.com/
-  schema: dckcj9i1b7k8gb
-  driver: org.postgresql.Driver
-  user: njuddcqcbpsoeh
-  password: OhICq3DZZal1mQ0ZtWyJtsHwri
+  url: '{cypher}7272af2d9910f185b7295a32775cb3b6c8eab75a0b64a110c738d094eb95a6bb9a98c929cc19d85e6ef9ca755f29c024fd8dce9b2f70e59c0d46f2ae0738c5548f09215c68f359512d5cbba250072ca287aad17bda6495670c4e22308c860ee8'
+  schema: '{cypher}66923f4a4191ef95021b845ee0110a049f71d01760d4853ac35ee71b477bed42'
+  driver: '{cypher}6f1626609069a983067de4c2bef65d32e42fd48345ad24ba04b013a7c7e9495f3aa12aa0bba9a7e49787b64276fbc22b'
+  user: '{cypher}8f2dd5da2afb1f3a33cdb31ba9eef3bc8c7248fd6f327fae123a90fdde6c3191'
+  password: '{cypher}a2a3597b97cd8338908539b645c8c82a54826fcac78be893385645366dd3bf0020ef739698fd7aa064ca69d58644c468'
 
 # SQL
 sql:
