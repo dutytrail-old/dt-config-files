@@ -3,11 +3,11 @@ ping:
 
 # DB CONNECTION
 db:
-  url: jdbc:mysql://eu-cdbr-west-01.cleardb.com:3306/
-  schema: heroku_f409b8bdcbe5ded
+  url: jdbc:mysql://m60mxazb4g6sb4nn.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/
+  schema: a4e1cqsu8g36vqzu
   driver: com.mysql.jdbc.Driver
-  user: ba75454fafcd20
-  password: 3a0cd0f6
+  user: mhcfzv1l9r4ikrz7
+  password: j870r6b0bet4t9k1
 
 # SQL
 sql:
