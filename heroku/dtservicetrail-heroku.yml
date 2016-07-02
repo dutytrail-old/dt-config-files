@@ -1,7 +1,6 @@
 ping:
   alive: Config properties loaded from HEROKU profile
 
-# DB CONNECTION
 db:
   url: jdbc:postgresql://ec2-54-228-226-93.eu-west-1.compute.amazonaws.com/
   schema: dckcj9i1b7k8gb
@@ -9,7 +8,6 @@ db:
   user: njuddcqcbpsoeh
   password: OhICq3DZZal1mQ0ZtWyJtsHwri
 
-# SQL
 sql:
   insert:
     trail: insert into dt_trail(id, user_id, duty_id, status) values (nextval('dt_s_trail_id'), ?, ?, ?)
