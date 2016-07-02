@@ -13,3 +13,5 @@ sql:
     trail: insert into dt_trail(id, user_id, duty_id, status) values (nextval('dt_s_trail_id'), ?, ?, ?)
   select:
     trail: select user_id, status, change_date from dt_trail t where t.duty_id = ?
+  delete:
+    trail: delete from public.dt_trail where duty_id = ?
