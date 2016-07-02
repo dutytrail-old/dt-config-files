@@ -12,7 +12,7 @@ db:
 # SQL
 sql:
   select:
-    listDuty: select d.id, d.name from dt_duty d, dt_user_subscribe_duty usd where usd.duty_id = d.id
+    listDuty: select distinct d.id, d.name from dt_duty d, dt_user_subscribe_duty usd where usd.duty_id = d.id
     listDutyByUser: select d.id, d.name from dt_duty d, dt_user_subscribe_duty usd where usd.duty_id = d.id and usd.user_id = ?
     duty: select d.id, d.name from dt_duty d where d.id = ?
     lastInsertId: select last_insert_id() as last_insert_id
